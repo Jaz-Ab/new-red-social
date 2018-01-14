@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Bungee+Inline|Cabin+Sketch|Frijole|Fugaz+One|Monofett|Oleo+Script|Playball|Shojumaru" rel="stylesheet">
+    <link rel="shortcut icon" href="../assets/images/logo-pestaña.png">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="../css/profile.css">
+  </head>
+  <body>
+    <header>
+      <!-- Menú -->
+      <nav class="cyan lighten-3">
+        <div class="container nav-wrapper">
+          <a href="news.html" class="brand-logo">Team</a>
+          <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+          <div>
+            <ul class="right hide-on-med-and-down">
+              <li><a href="news.html" class="border-nav cyan waves-effect waves-light btn">Noticias</a></li>
+              <li><a href="change" class="border-nav cyan waves-effect waves-light btn">Antes y después</a></li>
+              <li><a href="friends.html" class="border-nav cyan waves-effect waves-light btn">Amigos</a></li>
+              <li><a href="profile.html" class="border-nav cyan waves-effect waves-light btn">Perfil</a></li>
+              <li><a href="messages.html" class="border-nav cyan waves-effect waves-light btn">Mensajes</a></li>
+              <li><a class="border-nav cyan waves-effect waves-light btn dropdown-button" data-beloworigin="true" href='#' data-activates='dropdown1'><i class="material-icons">arrow_drop_down_circle</i></a></li>
+              <!-- Dropdown Structure -->
+              <ul id='dropdown1' class='dropdown-content'>
+                <li><a href="#">Config.</a></li>
+                <li class="divider"></li>
+                <li><a id="out" href="login.html">Salir</a></li>
+              </ul>
+            </ul>
+            <ul class="side-nav" id="mobile-demo">
+              <li><a href="news.html">Noticias</a></li>
+              <li><a href="profile.html">Perfil</a></li>
+              <li><a href="messages.html">Mensajes</a></li>
+              <li><a id="out" href="friends.html">Amigos</a></li>
+              <li><a id="out" href="change.html">Antes y después</a></li>
+              <li><a id="out" href="login.html">Salir</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!--Seccion de informacion, progreso, amigos, fotos-->
+    <section class="center-align container">
+      <div class="container-user card center-align">
+        <div class="img-user card-image waves-effect waves-block waves-light">
+          <a href="#" id="photo-user"></a>
+        </div>
+        <div class="card-content">
+          <span id="name-user" class="card-title activator grey-text text-darken-4">Name</span>
+          <a id="follow" class="btn-follow waves-effect waves-light btn">
+            <form action="#">
+              <p>
+                <input type="checkbox" id="test5" />
+                <label class="text-color" for="test5">Siguiendo</label>
+              </p>
+            </form>
+          </a>
+          <a id="add-friend" class="btn-follow waves-effect waves-light btn">
+            <form action="#">
+              <p>
+                <input type="checkbox" id="test6" />
+                <label class="text-color" for="test6">Amigos</label>
+              </p>
+            </form>
+          </a>
+        </div>
+        <div class="row card-tabs">
+          <ul class="tabs hide-on-small-only container scroll-hidden tabs-fixed-width">
+            <li class="tab"><a class="capitalize active" href="#test7">Presentación</a></li>
+            <li class="tab"><a class="capitalize" href="#test8">Intereses</a></li>
+            <li class="tab"><a class="capitalize" href="#test10">Fotos</a></li>
+          </ul>
+          <ul class="hide-on-med-and-up tabs container scroll-hidden tabs-fixed-width">
+            <li class="tab"><a class="capitalize active" href="#test7"><i class="material-icons">contacts</i></a></li>
+            <li class="tab"><a class="capitalize" href="#test8"><i class="material-icons">grade</i></a></li>
+            <li class="tab"><a class="capitalize" href="#test10"><i class="material-icons">photo</i></a></li>
+          </ul>
+        </div>
+        <div class="card-content grey lighten-4">
+          <div id="test7">
+            <div class="card-info row">
+              <div class="col s12 l12">
+                <div class="card-panel cyan">
+                  <span class="white-text">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="test8">
+            <div class="card-info row">
+              <div class="col s12 l12">
+                <div class="card-panel teal">
+                  <span class="white-text">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="test10">
+            <div class="card-info row">
+              <div class="col s12 l12">
+                <div class="card-panel">
+                  <div class="row">
+                    <form action="#">
+                      <div class="btn-add-photo col s3 l3 file-field input-field">
+                        <div class="btn">
+                          <span><i class="small material-icons">add_a_photo</i></span>
+                          <input type="file" multiple>
+                        </div>
+                        <div class="width-line file-path-wrapper">
+                          <input class="file-path validate" type="text">
+                        </div>
+                      </div>
+                    </form>
+                    <button id="btn-up" class="col l3 right waves-light btn" type="button" name="button">Subir</button>
+                  </div>
+                  <div class="photo-image">
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--perfil / share-->
+    <section class="center-align container">
+      <div class="container-user card center-align">
+        <div class="border-post row">
+          <form class="col l10 offset-l1 offset-s1 s11">
+            <div class="row">
+              <div class="input-field col l10 s11">
+                <i class="color-purple material-icons prefix">mode_edit</i>
+                <textarea id="icon_prefix2" class="materialize-textarea"></textarea>
+                <label for="icon_prefix2">¿Qué hay de nuevo?</label>
+                <div class="row">
+                  <form action="#">
+                    <div class="btn-add-photo col s3 l3 file-field input-field">
+                      <div class="btn">
+                        <span><i class="small material-icons">add_a_photo</i></span>
+                        <input type="file" multiple>
+                      </div>
+                      <div class="width-line file-path-wrapper">
+                        <input class="file-path validate" type="text">
+                      </div>
+                    </div>
+                  </form>
+                  <button id="btn-post" class="col l3 right waves-light btn" type="button" name="button">Compartir</button>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div id="container-post">
+
+        </div>
+      </div>
+    </section>
+    <!--Scripts-->
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.8.2/firebase.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+    <script src="../js/profile.js"></script>
+  </body>
+</html>

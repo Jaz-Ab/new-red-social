@@ -1,0 +1,133 @@
+.capitalize {
+  text-transform: capitalize;
+}
+
+/*  header*/
+.border-nav {
+  border: 2px solid #80deea;
+  border-radius: 5px;
+  color: #ffff;
+}
+
+/* Logo Team */
+nav .brand-logo {
+  font-family: 'Cabin Sketch', cursive;
+  position: absolute;
+  color: #fff;
+  display: inline-block;
+  font-size: 4.1rem;
+  padding: 0;
+}
+
+/*  perfil*/
+
+.img-user {
+  border: 4px solid white;
+  border-radius: 50%;
+  display: block;
+  height: 210px;
+  margin: auto;
+  margin-bottom: 20px;
+  margin-top: 15px;
+  width: 15%;
+}
+
+.container-user {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.btn-follow {
+  height: 35px;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-transform: capitalize;
+  width: 140px;
+}
+
+.tab {
+  overflow-x: hidden;
+}
+
+.scroll-hidden {
+  overflow-x: hidden;
+}
+
+.card-tabs {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/*paneles de usuario*/
+
+.card-info {
+  margin: 0;
+}
+
+.border-post {
+  border-radius: 3px;
+  box-shadow: 0.2px 0.3px 5px gray inset;
+  display: inline-block;
+  padding-top: 35px;
+  position: relative;
+  width: 90%;
+}
+
+.color-purple {
+  color: #00bcd4;
+}
+
+.color-purple:hover {
+  border-radius: 5px;
+  box-shadow: 0.2px 0.3px 10px gray inset;
+  color: #0097a7;
+  padding: 3px;
+}
+
+.likes:hover {
+  border-radius: 5px;
+  box-shadow: 0.2px 0.3px 10px gray inset;
+  color: #00bcd4;
+  padding: 3px;
+}
+
+/*fotos*/
+.photo-image {
+  box-shadow: 5px 5px 10px #aaaaaa;
+  display: inline-block;
+  height: 150px;
+  margin-top: 40px;
+  width: 140px;
+}
+
+/*color de texto en botones*/
+
+.text-color {
+  color: #ffff;
+}
+
+label.text-color::before {
+  border: 1.5px solid #ffff;
+  border-radius: 4px;
+}
+
+/*container de likes, force, love*/
+.text-purple {
+  color: #0097a7;
+}
+
+/*hidden*/
+.hidden {
+  display: none;
+}
+
+.width-line {
+  display: inline-block;
+  width: 0;
+}
+
+.btn-add-photo {
+  height: 40px;
+  padding: 0;
+  margin: 0;
+}

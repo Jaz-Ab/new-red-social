@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Bungee+Inline|Cabin+Sketch|Frijole|Fugaz+One|Monofett|Oleo+Script|Playball|Shojumaru" rel="stylesheet">
+    <link rel="shortcut icon" href="../assets/images/logo-pestaña.png">
+    <title>News</title>
+    <link rel="stylesheet" href="../vendors/materialize/css/materialize.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="../css/messages.css">
+  </head>
+  <body>
+    <header>
+      <!-- Menú -->
+      <nav class="cyan lighten-3">
+        <div class="container nav-wrapper">
+          <a href="news.html" class="brand-logo">Team</a>
+          <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+          <div>
+            <ul class="right hide-on-med-and-down">
+              <li><a href="news.html" class="border-nav cyan waves-effect waves-light btn">Noticias</a></li>
+              <li><a href="change" class="border-nav cyan waves-effect waves-light btn">Antes y después</a></li>
+              <li><a href="friends.html" class="border-nav cyan waves-effect waves-light btn">Amigos</a></li>
+              <li><a href="profile.html" class="border-nav cyan waves-effect waves-light btn">Perfil</a></li>
+              <li><a href="messages.html" class="border-nav cyan waves-effect waves-light btn">Mensajes</a></li>
+              <li><a class="border-nav cyan waves-effect waves-light btn dropdown-button" data-beloworigin="true" href='#' data-activates='dropdown1'><i class="material-icons">arrow_drop_down_circle</i></a></li>
+              <!-- Dropdown Structure -->
+              <ul id='dropdown1' class='dropdown-content'>
+                <li><a href="#">Config.</a></li>
+                <li class="divider"></li>
+                <li><a id="out" href="login.html">Salir</a></li>
+              </ul>
+            </ul>
+            <ul class="side-nav" id="mobile-demo">
+              <li><a href="news.html">Noticias</a></li>
+              <li><a href="profile.html">Perfil</a></li>
+              <li><a href="messages.html">Mensajes</a></li>
+              <li><a id="out" href="friends.html">Amigos</a></li>
+              <li><a id="out" href="change.html">Antes y después</a></li>
+              <li><a id="out" href="login.html">Salir</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <section class="container">
+      <div class="hide-on-small-only hide-on-med-only row">
+        <div class="col s12 l3">
+          <div class="card-panel cyan lighten-3">
+            <a href="profile.html" id="photo-user" class="img-user"></a>
+            <h5 id="name-user" class="name-news">Bandeja de entrada</h5>
+            <div class="collection">
+              <a href="#!" class="collection-item"><span class="badge">1</span>Carlos</a>
+              <a href="#!" class="collection-item"><span class="new badge">4</span>Sara</a>
+              <a href="#!" class="collection-item">Nilda</a>
+              <a href="#!" class="collection-item"><span class="badge">14</span>María</a>
+            </div>
+          </div>
+        </div>
+      </div>
+        <!--msjs-->
+      <section class="right container-news container">
+        <div class="card">
+          <div class="card-action valign-wrapper div-title-chat cyan">
+            <p class="width-input">Chat General</p><i class="material-icons">chat</i>
+          </div>
+          <div id="chat-container" class="card-content">
+            <div class="content-sms">
+              <p id="message-send" class="message">I am a very simple card. I am good at containing small bits of information.
+              I am convenient because I require little markup to use effectively.<span class="move">10:05</span></p>
+            </div>
+          </div>
+          <div class="card-action">
+            <div class="row">
+              <div class="input-field col m7 l10">
+                <textarea id="input-chat" class="materialize-textarea"></textarea>
+              </div>
+              <div class="col m4 l2">
+                  <i id="send" class="icon-blue small material-icons">play_arrow</i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.8.2/firebase.js"></script>
+    <script src="../vendors/materialize/js/materialize.js"></script>
+    <script src="../js/messages.js"></script>
+  </body>
+</html>

@@ -1,0 +1,26 @@
+.height {
+  height: 20vh;
+}
+
+.text {
+  display: block;
+  margin: auto;
+  outline: 1px solid red;
+}
+
+.logo {
+  display: block;
+  margin: auto;
+  margin-top: 30%;
+  outline: 1px solid red;
+}
+
+.container {
+  height: 100vh;
+}
+
+.btn-margin {
+  height: 40px;
+  margin-top: 30%;
+  width: 100%;
+}

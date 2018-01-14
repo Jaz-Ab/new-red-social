@@ -1,0 +1,39 @@
+/* Vista Splash*/
+body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.splash {
+  background-color:#7B1FA2;
+  height: 100vh;
+}
+
+.logo {
+  position: absolute;
+  width: 200px;
+}
+
+.box_text {
+  margin-top: 100px;
+  position: absolute;
+}
+
+/* Helpers */
+.vertical-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.textcenter {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 85px;
+  font-family: 'Cabin Sketch', cursive;
+}
+
+.text-uppercase{
+  text-transform: uppercase;
+}

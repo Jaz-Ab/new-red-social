@@ -1,0 +1,15 @@
+.height {
+  height: 60vh;
+}
+
+.logo {
+  height: 160px;
+  margin: auto;
+  margin-top: 30%;
+  outline: 1px solid red;
+  width: 120px;
+}
+
+.container {
+  height: 100vh;
+}

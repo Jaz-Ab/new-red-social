@@ -1,0 +1,75 @@
+.capitalize {
+  text-transform: capitalize;
+}
+
+body {
+  position: relative;
+}
+
+/*  header*/
+.border-nav {
+  border: 2px solid #80deea;
+  border-radius: 5px;
+  color: #ffff;
+}
+
+.div-title-chat {
+  color: #ffff;
+  height: 50px;
+}
+
+.name-news {
+  color: #ffff;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.width-input {
+  display: inline-block;
+  width: 88.5%;
+}
+
+i.icon-blue {
+    color: #00bcd4;
+    margin-top: 79%;
+    cursor: pointer;
+}
+
+i.icon-blue:hover {
+    color: #0097a7;
+}
+
+i.icon-blue:active {
+    color: #00bcd4;
+}
+
+.input-field {
+  margin-top: 0;
+}
+
+.content-sms {
+  margin-bottom: 10px;
+}
+
+.message {
+  background: #e0f7fa;
+  border-radius: 5px;
+  box-shadow: 1px 2px 5px #aaaaaa;
+  padding: 10px 15px 10px 10px;
+  position: relative;
+}
+
+.move {
+  bottom: 5px;
+  font-size: 12px;
+  position: absolute;
+  right: 10px;
+}
+
+/*posts*/
+.container-news {
+  position: absolute;
+  right: 16.5%;
+  top: 64px;
+  width: 50%;
+}

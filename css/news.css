@@ -1,0 +1,170 @@
+.capitalize {
+  text-transform: capitalize;
+}
+
+body {
+  position: relative;
+}
+
+/*  header*/
+.border-nav {
+  border: 2px solid #80deea;
+  border-radius: 5px;
+  color: #ffff;
+}
+
+/* Logo Team */
+.brand-logo {
+  font-family: 'Cabin Sketch', cursive;
+}
+
+/*barra de perfil*/
+.card-panel {
+  width: 100%;
+}
+
+.img-user {
+  border: 4px solid white;
+  border-radius: 50%;
+  display: block;
+  margin: auto;
+  margin-bottom: 20px;
+  margin-top: 15px;
+  width: 75%;
+}
+
+.div-title-chat {
+  color: #ffff;
+  height: 50px;
+}
+
+.name-news {
+  color: #ffff;
+  display: block;
+  font-size: 22px;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.width-input {
+  display: inline-block;
+  width: 88.5%;
+}
+
+i.icon-blue {
+    color: #00bcd4;
+    margin-top: 79%;
+    cursor: pointer;
+}
+
+i.icon-blue:hover {
+    color: #0097a7;
+}
+
+i.icon-blue:active {
+    color: #00bcd4;
+}
+
+.input-field {
+  margin-top: 0;
+}
+
+.content-sms {
+  margin-bottom: 10px;
+}
+
+.message {
+  background: #e0f7fa;
+  border-radius: 5px;
+  box-shadow: 1px 2px 5px #aaaaaa;
+  padding: 10px 15px 10px 10px;
+  position: relative;
+}
+
+.move {
+  bottom: 5px;
+  font-size: 12px;
+  position: absolute;
+  right: 10px;
+}
+
+/*posts*/
+.container-news {
+  position: absolute;
+  right: 16.5%;
+  top: 64px;
+  width: 50%;
+}
+
+.container-user {
+  padding-top: 25px;
+  padding-bottom: 15px;
+}
+
+.border-post {
+  border-radius: 3px;
+  box-shadow: 0.2px 0.3px 5px gray inset;
+  display: inline-block;
+  margin-top: 10px;
+  padding-top: 35px;
+  position: relative;
+  width: 90%;
+}
+
+.color-purple {
+  color: #00838f;
+}
+
+.color-purple:hover {
+  border-radius: 5px;
+  box-shadow: 0.2px 0.3px 10px gray inset;
+  color: #00838f;
+  padding: 3px;
+}
+
+.likes:hover {
+  border-radius: 5px;
+  box-shadow: 0.2px 0.3px 10px gray inset;
+  color: #00838f;
+  padding: 3px;
+}
+
+/*posts mobile*/
+.container-news-mobile {
+  position: absolute;
+  right: 5%;
+  top: 350px;
+  width: 90%;
+
+
+/*color de texto en botones*/
+
+.text-color {
+  color: #ffff;
+}
+
+label.text-color::before {
+  border: 1.5px solid #ffff;
+  border-radius: 4px;
+}
+
+/*container de likes, force, love*/
+.text-purple {
+  color: #00838f;
+}
+
+/*hidden*/
+.hidden {
+  display: none;
+}
+
+.width-line {
+  display: inline-block;
+  width: 0;
+}
+
+.btn-add-photo {
+  height: 40px;
+  padding: 0;
+  margin: 0;
+}
